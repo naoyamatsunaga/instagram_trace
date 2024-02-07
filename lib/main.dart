@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:instagram_trace/pages/feed_page.dart';
+import 'package:instagram_trace/pages/my_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -31,15 +33,15 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   int _currentIndex = 0;
+  final _pageWidgets = [
+    const FeedPage(),
+    const MyPage(),
+  ];
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        backgroundColor: Theme.of(context).colorScheme.inversePrimary,
-        title: Text(widget.title),
-      ),
-      body: Center(),
+      body: _pageWidgets.elementAt(_currentIndex),
       bottomNavigationBar: BottomNavigationBar(
         items: const <BottomNavigationBarItem>[
           BottomNavigationBarItem(icon: Icon(Icons.home), label: 'フィード'),
