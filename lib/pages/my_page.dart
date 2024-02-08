@@ -1,7 +1,25 @@
 import 'package:flutter/material.dart';
 
 class MyPage extends StatelessWidget {
-  const MyPage({super.key});
+  MyPage({super.key});
+
+  final images = [
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSACIp0DVIwGP3d4KXJ8d1zm_9a0hnCvBpsJg&usqp=CAU",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5lvm3-5xhD_S90o-MhNay74fFKzxviFogqk8oZmSD2xtpJbNZZHSLv00a6AeNHQkU_44&usqp=CAU",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdu_j6mglKLKo3gZjbyM3WTHqR7eZat-3bwwHjLMn7B9GALAQIOBW3AgC_ufoQRgu4IgI&usqp=CAU",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7RopGAXlQVfsUBxgLjP99Idk8a7NbFp_2sQS8VzLXgYLlVAduVptQOjuxrnsTtz6rzaM&usqp=CAU",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT64lms9U_oUc3QpGv8JZQNsvM7Ub_11eGaLbFSFa0MHfx63bsK0dge2nbAFSUP_IjvWkU&usqp=CAU",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSACIp0DVIwGP3d4KXJ8d1zm_9a0hnCvBpsJg&usqp=CAU",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5lvm3-5xhD_S90o-MhNay74fFKzxviFogqk8oZmSD2xtpJbNZZHSLv00a6AeNHQkU_44&usqp=CAU",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdu_j6mglKLKo3gZjbyM3WTHqR7eZat-3bwwHjLMn7B9GALAQIOBW3AgC_ufoQRgu4IgI&usqp=CAU",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7RopGAXlQVfsUBxgLjP99Idk8a7NbFp_2sQS8VzLXgYLlVAduVptQOjuxrnsTtz6rzaM&usqp=CAU",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT64lms9U_oUc3QpGv8JZQNsvM7Ub_11eGaLbFSFa0MHfx63bsK0dge2nbAFSUP_IjvWkU&usqp=CAU",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSACIp0DVIwGP3d4KXJ8d1zm_9a0hnCvBpsJg&usqp=CAU",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5lvm3-5xhD_S90o-MhNay74fFKzxviFogqk8oZmSD2xtpJbNZZHSLv00a6AeNHQkU_44&usqp=CAU",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdu_j6mglKLKo3gZjbyM3WTHqR7eZat-3bwwHjLMn7B9GALAQIOBW3AgC_ufoQRgu4IgI&usqp=CAU",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7RopGAXlQVfsUBxgLjP99Idk8a7NbFp_2sQS8VzLXgYLlVAduVptQOjuxrnsTtz6rzaM&usqp=CAU",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT64lms9U_oUc3QpGv8JZQNsvM7Ub_11eGaLbFSFa0MHfx63bsK0dge2nbAFSUP_IjvWkU&usqp=CAU",
+  ];
 
   @override
   Widget build(BuildContext context) {
@@ -120,56 +138,9 @@ class MyPage extends StatelessWidget {
               crossAxisSpacing: 1,
               mainAxisSpacing: 1,
               crossAxisCount: 3,
-              children: const <Widget>[
-                InstagramPostItem(
-                  imageUrl:
-                      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoMJGLzXHrB14UuVFcJ9jchaZPCnnaDE91nw&usqp=CAU",
-                ),
-                InstagramPostItem(
-                  imageUrl:
-                      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSACIp0DVIwGP3d4KXJ8d1zm_9a0hnCvBpsJg&usqp=CAU",
-                ),
-                InstagramPostItem(
-                  imageUrl:
-                      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7RopGAXlQVfsUBxgLjP99Idk8a7NbFp_2sQS8VzLXgYLlVAduVptQOjuxrnsTtz6rzaM&usqp=CAU",
-                ),
-                InstagramPostItem(
-                  imageUrl:
-                      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT64lms9U_oUc3QpGv8JZQNsvM7Ub_11eGaLbFSFa0MHfx63bsK0dge2nbAFSUP_IjvWkU&usqp=CAU",
-                ),
-                InstagramPostItem(
-                  imageUrl:
-                      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoMJGLzXHrB14UuVFcJ9jchaZPCnnaDE91nw&usqp=CAU",
-                ),
-                InstagramPostItem(
-                  imageUrl:
-                      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSACIp0DVIwGP3d4KXJ8d1zm_9a0hnCvBpsJg&usqp=CAU",
-                ),
-                InstagramPostItem(
-                  imageUrl:
-                      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7RopGAXlQVfsUBxgLjP99Idk8a7NbFp_2sQS8VzLXgYLlVAduVptQOjuxrnsTtz6rzaM&usqp=CAU",
-                ),
-                InstagramPostItem(
-                  imageUrl:
-                      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT64lms9U_oUc3QpGv8JZQNsvM7Ub_11eGaLbFSFa0MHfx63bsK0dge2nbAFSUP_IjvWkU&usqp=CAU",
-                ),
-                InstagramPostItem(
-                  imageUrl:
-                      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoMJGLzXHrB14UuVFcJ9jchaZPCnnaDE91nw&usqp=CAU",
-                ),
-                InstagramPostItem(
-                  imageUrl:
-                      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSACIp0DVIwGP3d4KXJ8d1zm_9a0hnCvBpsJg&usqp=CAU",
-                ),
-                InstagramPostItem(
-                  imageUrl:
-                      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7RopGAXlQVfsUBxgLjP99Idk8a7NbFp_2sQS8VzLXgYLlVAduVptQOjuxrnsTtz6rzaM&usqp=CAU",
-                ),
-                InstagramPostItem(
-                  imageUrl:
-                      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT64lms9U_oUc3QpGv8JZQNsvM7Ub_11eGaLbFSFa0MHfx63bsK0dge2nbAFSUP_IjvWkU&usqp=CAU",
-                ),
-              ],
+              children: images.map((imageUrl) {
+                return InstagramPostItem(imageUrl: imageUrl);
+              }).toList(),
             )
           ],
         ),
