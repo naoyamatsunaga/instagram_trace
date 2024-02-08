@@ -120,102 +120,74 @@ class MyPage extends StatelessWidget {
               crossAxisSpacing: 1,
               mainAxisSpacing: 1,
               crossAxisCount: 3,
-              children: <Widget>[
-                Container(
-                  padding: const EdgeInsets.all(8),
-                  color: Colors.teal[100],
-                  child: const Text("He'd have you all unravel at the"),
+              children: const <Widget>[
+                InstagramPostItem(
+                  imageUrl:
+                      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoMJGLzXHrB14UuVFcJ9jchaZPCnnaDE91nw&usqp=CAU",
                 ),
-                Container(
-                  padding: const EdgeInsets.all(8),
-                  color: Colors.teal[200],
-                  child: const Text('Heed not the rabble'),
+                InstagramPostItem(
+                  imageUrl:
+                      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSACIp0DVIwGP3d4KXJ8d1zm_9a0hnCvBpsJg&usqp=CAU",
                 ),
-                Container(
-                  padding: const EdgeInsets.all(8),
-                  color: Colors.teal[300],
-                  child: const Text('Sound of screams but the'),
+                InstagramPostItem(
+                  imageUrl:
+                      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7RopGAXlQVfsUBxgLjP99Idk8a7NbFp_2sQS8VzLXgYLlVAduVptQOjuxrnsTtz6rzaM&usqp=CAU",
                 ),
-                Container(
-                  padding: const EdgeInsets.all(8),
-                  color: Colors.teal[400],
-                  child: const Text('Who scream'),
+                InstagramPostItem(
+                  imageUrl:
+                      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT64lms9U_oUc3QpGv8JZQNsvM7Ub_11eGaLbFSFa0MHfx63bsK0dge2nbAFSUP_IjvWkU&usqp=CAU",
                 ),
-                Container(
-                  padding: const EdgeInsets.all(8),
-                  color: Colors.teal[500],
-                  child: const Text('Revolution is coming...'),
+                InstagramPostItem(
+                  imageUrl:
+                      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoMJGLzXHrB14UuVFcJ9jchaZPCnnaDE91nw&usqp=CAU",
                 ),
-                Container(
-                  padding: const EdgeInsets.all(8),
-                  color: Colors.teal[600],
-                  child: const Text('Revolution, they...'),
+                InstagramPostItem(
+                  imageUrl:
+                      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSACIp0DVIwGP3d4KXJ8d1zm_9a0hnCvBpsJg&usqp=CAU",
                 ),
-                Container(
-                  padding: const EdgeInsets.all(8),
-                  color: Colors.teal[100],
-                  child: const Text("He'd have you all unravel at the"),
+                InstagramPostItem(
+                  imageUrl:
+                      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7RopGAXlQVfsUBxgLjP99Idk8a7NbFp_2sQS8VzLXgYLlVAduVptQOjuxrnsTtz6rzaM&usqp=CAU",
                 ),
-                Container(
-                  padding: const EdgeInsets.all(8),
-                  color: Colors.teal[200],
-                  child: const Text('Heed not the rabble'),
+                InstagramPostItem(
+                  imageUrl:
+                      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT64lms9U_oUc3QpGv8JZQNsvM7Ub_11eGaLbFSFa0MHfx63bsK0dge2nbAFSUP_IjvWkU&usqp=CAU",
                 ),
-                Container(
-                  padding: const EdgeInsets.all(8),
-                  color: Colors.teal[300],
-                  child: const Text('Sound of screams but the'),
+                InstagramPostItem(
+                  imageUrl:
+                      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoMJGLzXHrB14UuVFcJ9jchaZPCnnaDE91nw&usqp=CAU",
                 ),
-                Container(
-                  padding: const EdgeInsets.all(8),
-                  color: Colors.teal[400],
-                  child: const Text('Who scream'),
+                InstagramPostItem(
+                  imageUrl:
+                      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSACIp0DVIwGP3d4KXJ8d1zm_9a0hnCvBpsJg&usqp=CAU",
                 ),
-                Container(
-                  padding: const EdgeInsets.all(8),
-                  color: Colors.teal[500],
-                  child: const Text('Revolution is coming...'),
+                InstagramPostItem(
+                  imageUrl:
+                      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7RopGAXlQVfsUBxgLjP99Idk8a7NbFp_2sQS8VzLXgYLlVAduVptQOjuxrnsTtz6rzaM&usqp=CAU",
                 ),
-                Container(
-                  padding: const EdgeInsets.all(8),
-                  color: Colors.teal[600],
-                  child: const Text('Revolution, they...'),
-                ),
-                Container(
-                  padding: const EdgeInsets.all(8),
-                  color: Colors.teal[100],
-                  child: const Text("He'd have you all unravel at the"),
-                ),
-                Container(
-                  padding: const EdgeInsets.all(8),
-                  color: Colors.teal[200],
-                  child: const Text('Heed not the rabble'),
-                ),
-                Container(
-                  padding: const EdgeInsets.all(8),
-                  color: Colors.teal[300],
-                  child: const Text('Sound of screams but the'),
-                ),
-                Container(
-                  padding: const EdgeInsets.all(8),
-                  color: Colors.teal[400],
-                  child: const Text('Who scream'),
-                ),
-                Container(
-                  padding: const EdgeInsets.all(8),
-                  color: Colors.teal[500],
-                  child: const Text('Revolution is coming...'),
-                ),
-                Container(
-                  padding: const EdgeInsets.all(8),
-                  color: Colors.teal[600],
-                  child: const Text('Revolution, they...'),
+                InstagramPostItem(
+                  imageUrl:
+                      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT64lms9U_oUc3QpGv8JZQNsvM7Ub_11eGaLbFSFa0MHfx63bsK0dge2nbAFSUP_IjvWkU&usqp=CAU",
                 ),
               ],
             )
           ],
         ),
       ),
+    );
+  }
+}
+
+class InstagramPostItem extends StatelessWidget {
+  const InstagramPostItem({super.key, required this.imageUrl});
+
+  final String imageUrl;
+
+  @override
+  Widget build(BuildContext context) {
+    return Image.network(
+      imageUrl,
+      fit: BoxFit.cover,
     );
   }
 }
