@@ -32,7 +32,7 @@ class MyPage extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Padding(
-              padding: const EdgeInsets.all(16),
+              padding: const EdgeInsets.all(8),
               child: Row(
                 children: [
                   Image.network(
@@ -41,41 +41,42 @@ class MyPage extends StatelessWidget {
                     height: 60,
                   ),
                   const Spacer(),
-                  const Column(children: [
-                    Text("7000",
-                        style: TextStyle(
+                  Column(children: [
+                    Text(images.length.toString(),
+                        style: const TextStyle(
                             fontWeight: FontWeight.bold, fontSize: 16)),
-                    Text("投稿")
+                    const Text("件の投稿", style: TextStyle(fontSize: 12))
                   ]),
                   const SizedBox(width: 16),
                   const Column(children: [
-                    Text("4.6億",
+                    Text("99",
                         style: TextStyle(
                             fontWeight: FontWeight.bold, fontSize: 16)),
-                    Text("フォロワー")
+                    Text("人のフォロワー", style: TextStyle(fontSize: 12))
                   ]),
                   const SizedBox(width: 8),
                   const Column(children: [
                     Text("99",
                         style: TextStyle(
                             fontWeight: FontWeight.bold, fontSize: 16)),
-                    Text("フォロー中")
+                    Text("人をフォロー中", style: TextStyle(fontSize: 12))
                   ]),
                 ],
               ),
             ),
-            const Padding(
-              padding: EdgeInsets.all(8.0),
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Text("Instagram",
-                      style:
-                          TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
-                  Text("Instagram", style: TextStyle(color: Colors.blue)),
-                  Text("Instagram", style: TextStyle(color: Colors.blue)),
-                ],
-              ),
+            const Row(
+              children: [
+                SizedBox(width: 8),
+                Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text("Naoya",
+                        style: TextStyle(
+                            fontWeight: FontWeight.bold, fontSize: 16)),
+                    Text("@Instagram", style: TextStyle(color: Colors.blue)),
+                  ],
+                ),
+              ],
             ),
             Padding(
               padding: const EdgeInsets.all(8.0),
